@@ -1,0 +1,14 @@
+<vector
+    android:height="125dp"
+    android:width="300dp"
+    android:viewportHeight="260.0"
+    android:viewportWidth="735.0"  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:name="nube1Group">
+    <path
+        android:name="nube1"
+        android:fillColor="#FFFFFF"
+        android:pathData="M20.8,46.2c0,0 65.7,-62.4 127,-10.8c0,0 91.5,-66.7 159.3,-4.9c0,0 97.9,33.9 0,83.4c0,0 -140.2,39.3 -156.1,-17.2c0,0 -89.3,40.9 -122.7,2.2C28.3,98.9 -23.3,80.6 20.8,46.2z"
+        android:strokeColor="#000000" android:strokeWidth="1"/>
+    </group>
+</vector>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.webdesarrollador.animationtutorial3.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/suelo"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rayo"
+        android:id="@+id/rayo1"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/nube1"
+        android:layout_alignLeft="@+id/nube2"
+        android:layout_alignStart="@+id/nube2"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rayo"
+        android:id="@+id/rayo2"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/nube1"
+        android:layout_toRightOf="@+id/rayo1"
+        android:layout_toEndOf="@+id/rayo1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/animated_nube1"
+        android:layout_marginTop="78dp"
+        android:id="@+id/nube1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/animated_nube2"
+        android:id="@+id/nube2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_alignBottom="@+id/nube1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/animation_chico"
+        android:background="@drawable/animation_frames"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

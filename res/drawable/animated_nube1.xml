@@ -1,0 +1,10 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:drawable="@drawable/ic_nube1" >
+<target
+    android:name="nube1Group"
+    android:animation="@animator/animation_nube1_desplazamiento" />
+<target
+    android:name="nube1"
+    android:animation="@animator/animation_nube_color" />
+
+</animated-vector>
